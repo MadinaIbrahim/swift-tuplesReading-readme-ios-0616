@@ -1,3 +1,6 @@
+
+
+
 func downloadImage(atURL url: String) -> (Bool, String) {
     // TODO: Download image
     // if no error, return true
@@ -21,3 +24,9 @@ var person2 = (name: "Jim", age: 30)
 print("\(person2.name)'s age is \(person2.age)")
 person2.age = 32
 print("\(person2.name)'s age is \(person2.age)")
+
+var person3 = (name: "Zarema", age: 40)
+print("\(person3.name)'s age is \(person3.age)")
+person3.name = "Madina"
+person3.age = 46
+print("\(person3.name)'s age is \(person3.age)")
